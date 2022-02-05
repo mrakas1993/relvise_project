@@ -1,0 +1,241 @@
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,
+ol{
+    list-style: none;
+}
+img{
+    vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-weight: inherit;
+    font-size: inherit;
+}
+html,
+body{
+    height: 100%;
+    line-height: 1;
+    font-size: 14px;
+    color:#252B42;
+    font-weight: 500;
+    font-family:'Montserrat';
+}
+.wrapper{
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    max-width: 1046px;
+    padding: 0 15px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.header{
+    background: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menu {
+    min-height: 104px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+.menu-logo{
+    margin-right: 132px;
+}
+.menu-logo a{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 133%;
+    letter-spacing: 0.1px;
+    color: #252B42;
+}
+
+.menu-nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+.nav-item {
+    margin-right: 21px;
+}
+.nav-item:last-child{
+    margin: 0;
+}
+.nav-link {
+    font-weight: 600;
+    line-height: 171%;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+/* header-info */
+
+.header-info {
+    margin-top: 80px;
+}
+.header-info__title {
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 128%;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    max-width: 396px;
+}
+.header-info__text {
+    margin-top: 35px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.2px;
+    color: #737373;
+    max-width: 376px;
+}
+.header-info__btns{
+    margin-top: 35px;
+    margin-bottom: 209px;
+    display: flex;
+}
+.header-info__btns .btn_a{
+    border: 1px solid #0D5C63;
+    border-radius: 37px;
+    padding: 0 35px;
+    height:48px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    max-width: 187px;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    color: #0D5C63;
+    margin-right: 10px;
+}
+.header-info__btns .btn_a:hover{
+    color:white;
+    background: #FF7B47;
+    border-color:#FF7B47;
+}
+
+.services {
+    background: #FAFAFA;
+}
+.services-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+    margin-top: -129px;
+    z-index: 2;
+}
+.services-box_item {
+    background: white;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    max-width: 328px;
+    max-height: 242px;
+    padding: 35px 40px;
+}
+.item-img {
+    padding-bottom: 10px;
+}
+.item-title {
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 133%;
+    letter-spacing: 0.1px;
+    color: #252B42;
+}
+.item-text {
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+.item-green{
+    background: #0D5C63;
+}
+.item-green .item-title{
+    color: white;
+}
+.item-green .item-text{
+    color: white;
+}
+/* Заголовки секций */
+.head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.head-title {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 142%;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    padding-bottom: 10px;
+}
+.head-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.2px;
+    color: #737373;
+    text-align: center;
+    max-width: 511px;
+}
+/* the end Заголовки секций */
+.designing{
+    background: #FAFAFA;
+    padding: 80px 0;
+}
+.achievements {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.achievements-item {
+    max-width: 230px;
+    min-height: 209px;
+    background: white;
+    padding: 30px 30.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.achievements-item__img {
+    height: 48px;
+    width: 48px;
+}
+.achievements-item__head {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 142%;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    padding: 10px 0;
+
+}
+.achievements-item__text {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #737373;
+}
