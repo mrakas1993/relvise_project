@@ -239,3 +239,38 @@ body{
     letter-spacing: 0.1px;
     color: #737373;
 }
+.practice {
+    background: #FAFAFA;
+    padding-top: 125px;
+    padding-bottom: 80px;
+}
+.practice-box {
+    padding-top: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+.practice-box__item {
+    background: white;
+}
+.practice-item__info {
+    max-width: 232px;
+    min-height: 203px;
+    padding: 30px;
+}
+.info-title {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.1px;
+    color: #252B42;
+}
+.info-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.2px;
+    color: #737373;
+    padding-top: 15px;
+}
+.practice-item__img {
+}
